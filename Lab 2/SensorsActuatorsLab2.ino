@@ -9,7 +9,7 @@ void loop()
 {
 val=Serial.read();             // read the instruction or character from PC to Arduino, and assign them to Val.
 if(val=='R')                   // determine if the instruction or character received is “R”.
-{                              // if it’s “R”,    
+{// if it’s “R”,    
 digitalWrite(ledpin,HIGH);     // set the LED on digital pin 13 on. 
 delay(500);
 digitalWrite(ledpin,LOW);      // set the LED on digital pin 13 off.    
